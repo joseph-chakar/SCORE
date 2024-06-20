@@ -7,6 +7,6 @@ A Python implementation of SCORE is currently under development and available at
 
 <div align="center">
   
-![Computing times of Bayesian Optimization and SCORE as a function of the number of iterations on the 5D Ackley function](figs/Figure_3.png)
+![Computing times of Bayesian Optimization and SCORE as a function of the number of iterations on the 5D Ackley function](fig/Figure_3.png)
   
 <div align="left">
