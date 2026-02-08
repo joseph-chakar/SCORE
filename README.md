@@ -1,5 +1,5 @@
 # SCORE
-$SCORE$ is a 1D reparameterization technique that breaks Bayesian Optimization (BO)’s curse of dimensionality and drastically reduces its computing time by decomposing the full $D$-dimensional space into $D$ 1D spaces along each input variable. 
+$SCORE$ is a 1D reparameterization technique that breaks Bayesian Optimization (BO)’s curse of dimensionality and drastically reduces its computing time by decomposing the full $N$-dimensional space into $N$ 1D spaces along each input variable. 
 
 The working paper describing this approach can be found here: https://arxiv.org/abs/2406.12661
 
