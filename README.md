@@ -1,6 +1,6 @@
 # SCORE
 
-$SCORE$ is a technique I developed to overcome Bayesian Optimization’s curse of dimensionality in discrete parameter spaces, reducing computing time by up to 96% by reparameterizing the $N$-dimensional space into $N$ separate 1D spaces, one for each input variable. Unlike standard BO, where the Gaussian Process (GP) surrogate model become increasingly expensive to fit as more points are added (leading to cubic scaling of computing time with iterations, i.e. the curse of dimensionality), each 1D space in $SCORE$ has a fixed size, so the computational cost per iteration stays constant.
+$SCORE$ is a technique I developed to overcome Bayesian Optimization (BO)’s curse of dimensionality in practical applications. It can reduce BO’s computing time by up to 96% by reparameterizing the $N$-dimensional space into $N$ separate 1D spaces, one for each input variable. In standard BO, the Gaussian Process (GP) surrogate becomes increasingly expensive to fit as more points are added, leading to cubic scaling of computing time with iterations (i.e., the curse of dimensionality). In contrast, since each discretized 1D space in $SCORE$ has a fixed size, the computational cost per iteration remains constant.
 
 The working paper describing this approach can be found here: https://arxiv.org/abs/2406.12661
 
