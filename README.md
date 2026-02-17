@@ -8,6 +8,6 @@ While Bayesian inference is powerful, it generally cannot scale to complex, high
 
 <div align="center">
   
-![BO vs. SCORE on 10D Ackley function](fig/Figure1_score.png)
+![BO vs. SCORE on 10D Ackley function](Figure1_score.png)
   
 <div align="left">
