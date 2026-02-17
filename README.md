@@ -4,7 +4,7 @@ $SCORE$ is a technique I developed to overcome Bayesian Optimization’s curse o
 
 The working paper describing this approach can be found here: https://arxiv.org/abs/2406.12661
 
-While Bayesian inference is powerful, it generally cannot scale to complex, high-dimensional problems and is typically limited to small, discrete parameter spaces. That's why I’ve been using $SCORE$ in my PV research, where it outperforms standard BO on real problems ranging from 10D to 19D. I’m currently benchmarking $SCORE$ against state-of-the-art algorithms, but the first Python implementation accompanying the working paper can be found here:https://github.com/hi-paris/SCORE.
+While Bayesian inference is powerful, it generally cannot scale to complex, high-dimensional problems and is typically limited to small, discrete parameter spaces. That's why I’ve been using $SCORE$ in my PV research, where it outperforms standard BO on real problems ranging from 10D to 19D. I’m currently benchmarking $SCORE$ against state-of-the-art algorithms, but the first Python implementation accompanying the working paper can be found here: https://github.com/hi-paris/SCORE.
 
 <div align="center">
   
